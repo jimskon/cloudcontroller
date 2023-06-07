@@ -1,0 +1,6 @@
+# app/controllers/wifi_controller.rb
+class WifiController < ApplicationController
+  def hello
+    @message = {status:"success"}
+  end
+end

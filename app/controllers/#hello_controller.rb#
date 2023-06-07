@@ -1,0 +1,6 @@
+# app/controllers/hello_controller.rb
+class Controller < ApplicationController
+  def say
+    @message = Cow.new.say(params[:message])
+  end
+end
